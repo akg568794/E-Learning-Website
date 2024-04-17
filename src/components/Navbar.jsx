@@ -12,7 +12,7 @@ export default function Navbar(props) {
             <img className='' src={Logo} alt="Logo" width={160} height={32} loading='lazy'/>
         </Link>
         <nav >
-          <ul className='flex gap-x-6 text-richblack-100'>
+          <ul className='flex gap-x-6 text-richblack-25'>
             <li><Link to="/">Home</Link></li>
             <li><Link to="/about">About</Link></li>
             <li><Link to="/contact">Contact</Link></li>
